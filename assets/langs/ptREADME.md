@@ -20,20 +20,22 @@
 
 <h2 id="howToUse">Como usar?</h2>
 
-> Antes de começar, você deve estar logado como Super Usuário (`su`).
+> **NOTE**
+>
+> *Não é mais necessário executar como Super Usuário (su).
 
 Será necessário somente ter o <a href="https://www.python.org">Python</a> e o <a href="https://pypi.org">PyPi</a> instalado na maquina.
 
 ```bat
-# apt update -y
-# apt install python3 python3-pip
+$ sudo apt update -y && sudo apt upgrade -y
+$ sudo apt install python3 python3-pip
 ```
 
 Clone o repositório, entre na pasta `UniTools` e execute o script `app.py`.
 ```bat
-# git clone https://github.com/Ahosall/UniTools.git
-# cd UniTools/
-# python3 app.py
+$ git clone https://github.com/Ahosall/UniTools.git
+$ cd UniTools/
+$ python3 app.py
 ```
 
 <h2 id="tools">Ferramentas</h2>
