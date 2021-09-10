@@ -121,8 +121,6 @@ def clone(author, repo, branch=False, installer=False, script=False):
   else: 
     execute(f'cd {paste} && git clone https://github.com/{author}/{repo}.git')
 
-  input('Debugging')
-
   if installer:
     if installer.lower() == 'pip':
       if script:
