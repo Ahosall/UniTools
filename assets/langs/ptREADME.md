@@ -22,7 +22,7 @@
 
 > **NOTE**
 >
-> *Não é mais necessário executar como Super Usuário (su).
+> Não é mais necessário executar como Super Usuário (su).
 
 Será necessário somente ter o <a href="https://www.python.org">Python</a> e o <a href="https://pypi.org">PyPi</a> instalado na maquina.
 

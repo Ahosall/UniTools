@@ -22,7 +22,7 @@
 
 > **NOTE**
 >
-> *It is no longer necessary to run as Super User (su).
+> It is no longer necessary to run as Super User (su).
 
 You only need to have <a href="https://www.python.org">Python</a> and <a href="https://pypi.org">PyPi</a> installed on the machine .
 
