@@ -5,7 +5,7 @@ Functions - Utils
 # Imports
 import re
 
-from os import system as execute, popen, path, mkdir
+from os import system as execute, popen, path, mkdir, chmod
 from time import sleep as wait
 
 from src.utils.colorFunc import colorTreatment
@@ -88,13 +88,14 @@ def checkLang():
   
   execute('clear')
 
-def cc(msg):
-  execute('clear')
+def cc(tool, msg):
+  updateTool(tool, '_GREEN_')
   print(colorTreatment(f'_YELLOW_[_GREEN_OK_YELLOW_]_RESET_: {msg}'))
   wait(5)
 
 # --- Update pkgs
 def update():
+  banner()
   print('\n=====] UPDATE')
   wait(2)
   execute('apt-get update -y && apt-get upgrade -y')
@@ -102,6 +103,7 @@ def update():
 
 # --- Install pkgs
 def install(script):
+  banner()
   print('\n=====] INSTALL')
   wait(2)
   execute(f'apt-get install {script} -y')
@@ -109,12 +111,15 @@ def install(script):
 
 # --- Clone repos
 def clone(author, repo, branch=False, installer=False, script=False):
+  banner()
   print('\n=====] CLONE')
   wait(2)
 
   paste = getConfigs()['folders']['tools']
 
-  if path.isdir(paste) == False: mkdir(paste)
+  if path.isdir(paste) == False: 
+    mkdir(paste)
+    chmod(paste, 0o777)
 
   if branch:
     execute(f'cd {paste} && git clone -b {branch} https://github.com/{author}/{repo}.git')
@@ -220,6 +225,7 @@ def credit():
 
 # --- Check Updates
 def checkUpdates():
+  banner()
   print('\n ', lang()['messageUpdates']['check'])
   checker = popen('git pull').read()
 

@@ -1,0 +1,311 @@
+{
+  "bForce": {
+    "FacebookBruteForce": {
+      "Status": "_GREEN_",
+      "Locale": "../ClonnedTools"
+    },
+    "Hydra": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "facebookcracker": {
+      "Status": "_GREEN_",
+      "Locale": null
+    },
+    "Instahack": {
+      "Status": "_GREEN_",
+      "Locale": null
+    },
+    "hashcat": {
+      "Status": "_GREEN_",
+      "Locale": null
+    },
+    "BlackHydra": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "HashBuster": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "Facebom": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "brutespray": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "hyprPulse": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "lazybee": {
+      "Status": "_RESET_",
+      "Locale": null
+    }
+  },
+  "dos": {
+    "xerxes": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "slowloris": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "hammer": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "Hunner": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "GoldenEye": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "DDosAttack": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "Ddoser": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "torshammer": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "LITEDDOS": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "hulk": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "MemcrashedDDoSExploit": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "PlanetworkDDOS": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "ping_of_death": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "IcmpiFlood": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "exploitblacknurse": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "PyFlooder": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "Saddam": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "ntpdos": {
+      "Status": "_GREEN_",
+      "Locale": null
+    }
+  },
+  "infoGathering": {
+    "nmap": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "Th3inspector": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "angryFuzzer": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "PhoneInfoga": {
+      "Status": "_GREEN_",
+      "Locale": null
+    },
+    "FBI": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "Infoga": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "InfoSploit": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "BillCipher": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "gasmask": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "OSIF": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "inmux": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "IPTracer": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "RED_HAWK": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "TMscanner": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "sqlmx_termux": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "reconspider": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "ReconDog": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "userrecon": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "IPGeolocation": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "OptivaFramework": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "wpscan": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "theHarvester": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "KnockMail": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "SCANNERINURLBR": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "dmitry": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "ShodanHat": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "Hatwitch": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "URLextractor": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "webkiller": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "creepy": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "seeker": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "twifo_cli": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "sherlock": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "osi_ig": {
+      "Status": "_RESET_",
+      "Locale": null
+    }
+  },
+  "panels": {},
+  "phishing": {
+    "SocialFish": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "SocialPhish": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "Phisherman": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "shellphish": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "gophish": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "TurkSploit": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "weeman": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "dnstwist": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "Phlexish": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "zphisher": {
+      "Status": "_RESET_",
+      "Locale": null
+    },
+    "nexphisher": {
+      "Status": "_GREEN_",
+      "Locale": null
+    },
+    "grabcam": {
+      "Status": "_RESET_",
+      "Locale": null
+    }
+  }
+}

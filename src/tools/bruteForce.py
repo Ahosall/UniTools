@@ -6,6 +6,7 @@ Brute Force - Tools
 from time import sleep as wait
 
 # --- Utils
+from src.utils.configs import getSttsTool
 from src.utils.functions import update, install, clone, cc
 from src.utils.languages import lang
 from src.utils.colorFunc import colorTreatment
@@ -17,13 +18,13 @@ def FacebookBruteForce():
 		author="IAmBlackHacker",
 		repo="Facebook-BruteForce"
 	)
-	cc('Facebook-BruteForce has been cloned successfully... To access it go to the tools folder.')
+	cc(('bForce', 'FacebookBruteForce'), 'Facebook-BruteForce has been cloned successfully... To access it go to the tools folder.')
 	return 'restart'
 # 02 | Hydra
 def Hydra():
   update()
   install("hydra")
-  cc('Hydra has been successfully installed...')
+  cc(('bForce', 'Hydra'), 'Hydra has been successfully installed...')
   return 'restart'
 # 03 | facebookcracker
 def facebookcracker():
@@ -31,7 +32,7 @@ def facebookcracker():
 		author="Ha3MrX",
 		repo="facebook-cracker"
 	)
-	cc('Facebook-cracker has been cloned successfully... To access it go to the tools folder.')
+	cc(('bForce', 'facebookcracker'), 'Facebook-cracker has been cloned successfully... To access it go to the tools folder.')
 	return 'restart'
 # 04 | Instahack
 def Instahack():
@@ -39,7 +40,7 @@ def Instahack():
 		author="fuck3erboy",
 		repo="instahack"
 	)
-	cc('Instahack has been cloned successfully... To access it go to the tools folder.')
+	cc(('bForce', 'Instahack'), 'Instahack has been cloned successfully... To access it go to the tools folder.')
 	return 'restart'
 # 05 | hashcat
 def hashcat():
@@ -47,7 +48,7 @@ def hashcat():
 		author="hashcat",
 		repo="hashcat"
 	)
-	cc('Hashcat has been cloned successfully... To access it go to the tools folder.')
+	cc(('bForce', 'hashcat'), 'Hashcat has been cloned successfully... To access it go to the tools folder.')
 	return 'restart'
 # 06 | BlackHydra
 def BlackHydra():
@@ -55,7 +56,7 @@ def BlackHydra():
 		author="Gameye98",
 		repo="Black-Hydra"
 	)
-	cc('Black-Hydra has been cloned successfully... To access it go to the tools folder.')
+	cc(('bForce', 'BlackHydra'), 'Black-Hydra has been cloned successfully... To access it go to the tools folder.')
 	return 'restart'
 # 07 | HashBuster
 def HashBuster():
@@ -63,7 +64,7 @@ def HashBuster():
 		author="s0md3v",
 		repo="Hash-Buster"
 	)
-	cc('Hash-Buster has been cloned successfully... To access it go to the tools folder.')
+	cc(('bForce', 'HashBuster'), 'Hash-Buster has been cloned successfully... To access it go to the tools folder.')
 	return 'restart'
 # 08 | Facebom
 def Facebom():
@@ -73,7 +74,7 @@ def Facebom():
 		installer="pip",
 		script="requests mechanize"
 	)
-	cc('Facebom has been successfully cloned and installed... To access it go to the tools folder.')
+	cc(('bForce', 'Facebom'), 'Facebom has been successfully cloned and installed... To access it go to the tools folder.')
 	return 'restart'
 # 09 | brutespray
 def brutespray():
@@ -82,7 +83,7 @@ def brutespray():
 		repo="brutespray",
 		installer="pip"
 	)
-	cc('Brutespray has been successfully cloned and installed... To access it go to the tools folder.')
+	cc(('bForce', 'brutespray'), 'Brutespray has been successfully cloned and installed... To access it go to the tools folder.')
 	return 'restart'
 # 10 | hyprPulse
 def hyprPulse():
@@ -92,7 +93,7 @@ def hyprPulse():
 		installer="shell",
 		script="chmod +x install.sh && bash install.sh"
 	)
-	cc('HyprPulse has been successfully cloned and installed... To access it go to the tools folder.')
+	cc(('bForce', 'hyprPulse'), 'HyprPulse has been successfully cloned and installed... To access it go to the tools folder.')
 	return 'restart'
 # 11 | lazybee
 def lazybee():
@@ -102,27 +103,31 @@ def lazybee():
 		installer="pip",
 		script="lolcat"
 	)
-	cc('Lazybee has been successfully cloned and installed... To access it go to the tools folder.')
+	cc(('bForce', 'lazybee'), 'Lazybee has been successfully cloned and installed... To access it go to the tools folder.')
 	return 'restart'
 
 # Menu
 def menu():
+  stts = getSttsTool()['bForce']
   items = [
     '            ',
     '=== {}'.format(lang()['tools']['bruteForce']),
-    '  {}[1]{} FacebookBruteForce     '.format('_CYAN_', '_RESET_'),
-    '  {}[2]{} Hydra                  '.format('_CYAN_', '_RESET_'),
-    '  {}[3]{} facebookcracker        '.format('_CYAN_', '_RESET_'),
-    '  {}[4]{} Instahack              '.format('_CYAN_', '_RESET_'),
-    '  {}[5]{} hashcat                '.format('_CYAN_', '_RESET_'),
-    '  {}[6]{} BlackHydra             '.format('_CYAN_', '_RESET_'),
-    '  {}[7]{} HashBuster             '.format('_CYAN_', '_RESET_'),
-    '  {}[8]{} Facebom                '.format('_CYAN_', '_RESET_'),
-    '  {}[9]{} brutespray             '.format('_CYAN_', '_RESET_'),
-    '  {}[10]{} hyprPulse             '.format('_CYAN_', '_RESET_'),
-    '  {}[11]{} lazybee               '.format('_CYAN_', '_RESET_'),
-    '  {}[00]{} {}                    '.format('_CYAN_', '_RESET_', lang()['goBack']),
-    '                                 '
+    '  {}[01]{} FacebookBruteForce   {}'.format('_CYAN_', stts['FacebookBruteForce']['Status'], '_RESET_'),
+    '  {}[02]{} Hydra                {}'.format('_CYAN_', stts['Hydra']['Status'], '_RESET_'),
+    '  {}[03]{} facebookcracker      {}'.format('_CYAN_', stts['facebookcracker']['Status'], '_RESET_'),
+    '  {}[04]{} Instahack            {}'.format('_CYAN_', stts['Instahack']['Status'], '_RESET_'),
+    '  {}[05]{} hashcat              {}'.format('_CYAN_', stts['hashcat']['Status'], '_RESET_'),
+    '  {}[06]{} BlackHydra           {}'.format('_CYAN_', stts['BlackHydra']['Status'], '_RESET_'),
+    '  {}[07]{} HashBuster           {}'.format('_CYAN_', stts['HashBuster']['Status'], '_RESET_'),
+    '  {}[08]{} Facebom              {}'.format('_CYAN_', stts['Facebom']['Status'], '_RESET_'),
+    '  {}[09]{} brutespray           {}'.format('_CYAN_', stts['brutespray']['Status'], '_RESET_'),
+    '  {}[10]{} hyprPulse            {}'.format('_CYAN_', stts['hyprPulse']['Status'], '_RESET_'),
+    '  {}[11]{} lazybee              {}'.format('_CYAN_', stts['lazybee']['Status'], '_RESET_'),
+    '  {}[00]{} {}                     '.format('_CYAN_', '_RESET_', lang()['goBack']),
+		'                                  ',
+    '  {}Green:{} Installed or Clonned '.format('_GREEN_', '_RESET_'),
+		'  {}White:{} Not Installed or Clonned '.format('_WHITE_', '_RESET_'),
+		'                                  ',
   ]
 
   for item in items:

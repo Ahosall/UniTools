@@ -11,10 +11,22 @@ from time import sleep as wait
 # Vars
 with open('./src/datas/configs.json', encoding='utf-8') as f:
     configs = json.load(f)
+  
+with open('./src/datas/tools.json', encoding='utf-8') as f:
+    toolsStts = json.load(f)
 
 # Functions
 def getConfigs():
   return configs
+
+def getSttsTool():
+  return toolsStts
+
+def updateTool(tools, stts):
+  toolsStts[tools[0]][tools[1]]['Status'] = stts
+
+  with open('./src/datas/tools.json', 'w+', encoding='utf-8') as f: json.dump(toolsStts, f)
+
 
 def setLanguage(lang):
   configs['language'] = lang

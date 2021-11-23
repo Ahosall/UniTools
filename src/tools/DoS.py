@@ -8,6 +8,7 @@ import random
 from time import sleep as wait
 
 # --- Utils
+from src.utils.configs import getSttsTool
 from src.utils.functions import update, install, clone, cc
 from src.utils.languages import lang
 from src.utils.colorFunc import colorTreatment
@@ -19,7 +20,7 @@ def xerxes():
     author="sepehrdaddev",
     repo="Xerxes"
   )
-  cc('Xerxes foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'xerxes'), 'Xerxes foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def slowloris():
@@ -28,7 +29,7 @@ def slowloris():
     author="llaera",
     repo="slowloris.pl"
   )
-  cc('Slowloris.pl foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'slowloris'), 'Slowloris.pl foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def hammer():
@@ -37,7 +38,7 @@ def hammer():
     author="cyweb",
     repo="hammer"
   )
-  cc('Hammer foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'hammer'), 'Hammer foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def Hunner():
@@ -46,7 +47,7 @@ def Hunner():
     author="b3-v3r",
     repo="Hunner"
   )
-  cc('Hunner foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'Hunner'), 'Hunner foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def GoldenEye():
@@ -55,7 +56,7 @@ def GoldenEye():
     author="jseidl",
     repo="GoldenEye"
   )
-  cc('GoldenEye foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'GoldenEye'), 'GoldenEye foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def DDosAttack():
@@ -64,7 +65,7 @@ def DDosAttack():
     author="Ha3MrX",
     repo="DDos-Attack"
   )
-  cc('DDos-Attack foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'DDosAttack'), 'DDos-Attack foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def Ddoser():
@@ -73,7 +74,7 @@ def Ddoser():
     author="ZonePy",
     repo="Ddoser"
   )
-  cc('Ddoser foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'Ddoser'), 'Ddoser foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def torshammer():
@@ -82,7 +83,7 @@ def torshammer():
     author="dotfighter",
     repo="torshammer"
   )
-  cc('Torshammer foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'torshammer'), 'Torshammer foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def LITEDDOS():
@@ -91,7 +92,7 @@ def LITEDDOS():
     author="4L13199",
     repo="LITEDDOS"
   )
-  cc('LITEDDOS foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'LITEDDOS'), 'LITEDDOS foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def hulk():
@@ -100,7 +101,7 @@ def hulk():
     author="grafov",
     repo="hulk"
   )
-  cc('hulk foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'hulk'), 'hulk foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def MemcrashedDDoSExploit():
@@ -109,7 +110,7 @@ def MemcrashedDDoSExploit():
     author="649",
     repo="Memcrashed-DDoS-Exploit"
   )
-  cc('Memcrashed-DDoS-Exploit foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'MemcrashedDDoSExploit'), 'Memcrashed-DDoS-Exploit foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def PlanetworkDDOS():
@@ -118,7 +119,7 @@ def PlanetworkDDOS():
     author="Hydra7",
     repo="Planetwork-DDOS"
   )
-  cc('Planetwork-DDOS foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'PlanetworkDDOS'), 'Planetwork-DDOS foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def ping_of_death():
@@ -127,7 +128,7 @@ def ping_of_death():
     author="ffmancera",
     repo="ping_of_death"
   )
-  cc('Ping_of_death foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'ping_of_death'), 'Ping_of_death foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def IcmpiFlood():
@@ -136,7 +137,7 @@ def IcmpiFlood():
     author="pioneerhfy",
     repo="IcmpiFlood"
   )
-  cc('IcmpiFlood foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'IcmpiFlood'), 'IcmpiFlood foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def exploitblacknurse():
@@ -145,7 +146,7 @@ def exploitblacknurse():
     author="opsxcq",
     repo="exploit-blacknurse"
   )
-  cc('Exploit-blacknurse foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'exploitblacknurse'), 'Exploit-blacknurse foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def PyFlooder():
@@ -154,7 +155,7 @@ def PyFlooder():
     author="D4Vinci",
     repo="PyFlooder"
   )
-  cc('PyFlooder foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'PyFlooder'), 'PyFlooder foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def Saddam():
@@ -163,7 +164,7 @@ def Saddam():
     author="OffensivePython",
     repo="Saddam"
   )
-  cc('Saddam foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'Saddam'), 'Saddam foi clonado com sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def ntpdos():
@@ -172,34 +173,39 @@ def ntpdos():
     author="vpnguy-zz",
     repo="ntpdos"
   )
-  cc('Ntpdos sucesso... Para acessa-lo vá para a pasta tools.')
+  cc(('dos', 'ntpdos'), 'Ntpdos sucesso... Para acessa-lo vá para a pasta tools.')
   return 'restart'
 
 def menu():
+  stts = getSttsTool()['dos']
+
   tips = lang()['tips']
   items = [
     '\n',
     '=== {}                              '.format(lang()['tools']['dos']),
-    '  {}[1]{} Xerxes                    '.format('_CYAN_', '_RESET_'),
-    '  {}[2]{} Slowloris                 '.format('_CYAN_', '_RESET_'),
-    '  {}[3]{} Hammer                    '.format('_CYAN_', '_RESET_'),
-    '  {}[4]{} Hunner                    '.format('_CYAN_', '_RESET_'),
-    '  {}[5]{} GoldenEye                 '.format('_CYAN_', '_RESET_'),
-    '  {}[6]{} DDos-Attack               '.format('_CYAN_', '_RESET_'),
-    '  {}[7]{} Ddoser                    '.format('_CYAN_', '_RESET_'),
-    '  {}[8]{} torshammer                '.format('_CYAN_', '_RESET_'),
-    '  {}[9]{} LITEDDOS                  '.format('_CYAN_', '_RESET_'),
-    '  {}[10]{} hulk                     '.format('_CYAN_', '_RESET_'),
-    '  {}[11]{} Memcrashed-DDoS-Exploit  '.format('_CYAN_', '_RESET_'),
-    '  {}[12]{} Planetwork-DDOS          '.format('_CYAN_', '_RESET_'),
-    '  {}[13]{} Ping_of_death            '.format('_CYAN_', '_RESET_'),
-    '  {}[14]{} IcmpiFlood               '.format('_CYAN_', '_RESET_'),
-    '  {}[15]{} exploit-blacknurse       '.format('_CYAN_', '_RESET_'),
-    '  {}[16]{} PyFlooder                '.format('_CYAN_', '_RESET_'),
-    '  {}[17]{} Saddam                   '.format('_CYAN_', '_RESET_'),
-    '  {}[18]{} ntpdos                   '.format('_CYAN_', '_RESET_'),
-    '  {}[00]{} {}                       '.format('_CYAN_', '_RESET_', lang()['goBack']),
-    '                                    ',
+    '  {}[01]{} Xerxes                  {}'.format('_CYAN_', stts['xerxes']['Status'], '_RESET_'),
+    '  {}[02]{} Slowloris               {}'.format('_CYAN_', stts['slowloris']['Status'], '_RESET_'),
+    '  {}[03]{} Hammer                  {}'.format('_CYAN_', stts['hammer']['Status'], '_RESET_'),
+    '  {}[04]{} Hunner                  {}'.format('_CYAN_', stts['Hunner']['Status'], '_RESET_'),
+    '  {}[05]{} GoldenEye               {}'.format('_CYAN_', stts['GoldenEye']['Status'], '_RESET_'),
+    '  {}[06]{} DDos-Attack             {}'.format('_CYAN_', stts['DDosAttack']['Status'], '_RESET_'),
+    '  {}[07]{} Ddoser                  {}'.format('_CYAN_', stts['Ddoser']['Status'], '_RESET_'),
+    '  {}[08]{} torshammer              {}'.format('_CYAN_', stts['torshammer']['Status'], '_RESET_'),
+    '  {}[09]{} LITEDDOS                {}'.format('_CYAN_', stts['LITEDDOS']['Status'], '_RESET_'),
+    '  {}[10]{} hulk                    {}'.format('_CYAN_', stts['hulk']['Status'], '_RESET_'),
+    '  {}[11]{} Memcrashed-DDoS-Exploit {}'.format('_CYAN_', stts['MemcrashedDDoSExploit']['Status'], '_RESET_'),
+    '  {}[12]{} Planetwork-DDOS         {}'.format('_CYAN_', stts['PlanetworkDDOS']['Status'], '_RESET_'),
+    '  {}[13]{} Ping_of_death           {}'.format('_CYAN_', stts['ping_of_death']['Status'], '_RESET_'),
+    '  {}[14]{} IcmpiFlood              {}'.format('_CYAN_', stts['IcmpiFlood']['Status'], '_RESET_'),
+    '  {}[15]{} exploit-blacknurse      {}'.format('_CYAN_', stts['exploitblacknurse']['Status'], '_RESET_'),
+    '  {}[16]{} PyFlooder               {}'.format('_CYAN_', stts['PyFlooder']['Status'], '_RESET_'),
+    '  {}[17]{} Saddam                  {}'.format('_CYAN_', stts['Saddam']['Status'], '_RESET_'),
+    '  {}[18]{} ntpdos                  {}'.format('_CYAN_', stts['ntpdos']['Status'], '_RESET_'),
+    '  {}[00]{} {}                        '.format('_CYAN_', '_RESET_', lang()['goBack']),
+    '                                     ',
+    '  {}Green:{} Installed or Clonned    '.format('_GREEN_', '_RESET_'),
+		'  {}White:{} Not Installed or Clonned'.format('_WHITE_', '_RESET_'),
+		'                                     ',
     '  {}[{}{}{}]{}: {}              {}\n'.format('_CYAN_', '_GREEN_', tips['title'], '_CYAN_', '_WHITE_', random.choice(tips['DoS']), '_RESET_'),
   ]
 
@@ -209,25 +215,25 @@ def menu():
 
   choice = input('  ' + lang()['input'])
 
-  if choice.replace(' ', '') != '':
-    if choice in ['0', '00']: return 'restart'
-    elif choice in ["1", "01"]: return xerxes()
-    elif choice in ["2", "02"]: return slowloris()
-    elif choice in ["3", "03"]: return hammer()
-    elif choice in ["4", "04"]: return Hunner()
-    elif choice in ["5", "05"]: return GoldenEye()
-    elif choice in ["6", "06"]: return DDosAttack()
-    elif choice in ["7", "07"]: return Ddoser()
-    elif choice in ["8", "08"]: return torshammer()
-    elif choice in ["9", "09"]: return LITEDDOS()
-    elif choice in "10": return hulk()
-    elif choice in "11": return MemcrashedDDoSExploit()
-    elif choice in "12": return PlanetworkDDOS()
-    elif choice in "13": return ping_of_death()
-    elif choice in "14": return IcmpiFlood()
-    elif choice in "15": return exploitblacknurse()
-    elif choice in "16": return PyFlooder()
-    elif choice in "17": return Saddam()
-    elif choice in "18": return ntpdos()
+  if choice.replace(' ', '') != '' and choice.isnumeric():
+    if   int(choice) == 0: return 'restart'
+    elif int(choice) == 1: return xerxes()
+    elif int(choice) == 2: return slowloris()
+    elif int(choice) == 3: return hammer()
+    elif int(choice) == 4: return Hunner()
+    elif int(choice) == 5: return GoldenEye()
+    elif int(choice) == 6: return DDosAttack()
+    elif int(choice) == 7: return Ddoser()
+    elif int(choice) == 8: return torshammer()
+    elif int(choice) == 9: return LITEDDOS()
+    elif int(choice) == 10: return hulk()
+    elif int(choice) == 11: return MemcrashedDDoSExploit()
+    elif int(choice) == 12: return PlanetworkDDOS()
+    elif int(choice) == 13: return ping_of_death()
+    elif int(choice) == 14: return IcmpiFlood()
+    elif int(choice) == 15: return exploitblacknurse()
+    elif int(choice) == 16: return PyFlooder()
+    elif int(choice) == 17: return Saddam()
+    elif int(choice) == 18: return ntpdos()
     else: return 'error'
   else: return 'error'
