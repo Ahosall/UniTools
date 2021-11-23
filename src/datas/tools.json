@@ -1,23 +1,23 @@
 {
   "bForce": {
     "FacebookBruteForce": {
-      "Status": "_GREEN_",
-      "Locale": "../ClonnedTools"
+      "Status": "_RESET_",
+      "Locale": null
     },
     "Hydra": {
       "Status": "_RESET_",
       "Locale": null
     },
     "facebookcracker": {
-      "Status": "_GREEN_",
+      "Status": "_RESET_",
       "Locale": null
     },
     "Instahack": {
-      "Status": "_GREEN_",
+      "Status": "_RESET_",
       "Locale": null
     },
     "hashcat": {
-      "Status": "_GREEN_",
+      "Status": "_RESET_",
       "Locale": null
     },
     "BlackHydra": {
@@ -115,7 +115,7 @@
       "Locale": null
     },
     "ntpdos": {
-      "Status": "_GREEN_",
+      "Status": "_RESET_",
       "Locale": null
     }
   },
@@ -133,7 +133,7 @@
       "Locale": null
     },
     "PhoneInfoga": {
-      "Status": "_GREEN_",
+      "Status": "_RESET_",
       "Locale": null
     },
     "FBI": {
@@ -300,7 +300,7 @@
       "Locale": null
     },
     "nexphisher": {
-      "Status": "_GREEN_",
+      "Status": "_RESET_",
       "Locale": null
     },
     "grabcam": {

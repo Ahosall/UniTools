@@ -24,6 +24,7 @@ def getSttsTool():
 
 def updateTool(tools, stts):
   toolsStts[tools[0]][tools[1]]['Status'] = stts
+  toolsStts[tools[0]][tools[1]]['Locale'] = configs[tools]
 
   with open('./src/datas/tools.json', 'w+', encoding='utf-8') as f: json.dump(toolsStts, f)
 
