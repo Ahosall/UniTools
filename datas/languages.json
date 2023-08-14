@@ -1,0 +1,63 @@
+{
+ "en": {
+  "tools": {
+    "info.gathering": "Information Gathering Tools",
+    "dos": "DoS Tools",
+    "phishing": "Phishing Tools",
+    "brute.force": "Brute Force Tools"
+  },
+  "exit": "Byee~",
+  "errors": {
+    "incorrect.choice": "Oops! Looks like you ented an invalid option."
+  },
+  "main": {
+    "tools": {
+      "subtitle": "Tools",
+      "value": [
+        "Information Collection Tools",
+        "DoS Tools",
+        "Phishing Tools",
+        "Exploration Tools (Exploit) (Scanners)",
+        "Brute-force tools"
+      ]
+    },
+    "others": {
+      "subtitle": "Others",
+      "value": [
+        "Panels",
+        "Settings",
+        "Search for update (UniTools)",
+        "Credits",
+        "Exit"
+      ]
+    }
+  },
+  "input": "Select an option: ",
+  "go.back": "Back to menu...",
+  "press.enter": "Press [Enter]...",
+  "message.updates": {
+    "check": "Checking for updates...",
+    "no.update": "There are no updates, returning to the menu.",
+    "has.update": "The program has been updated. To apply the setting, exit and enter again.",
+    "input": "Do you want to update now? [y/N]"
+  },
+  "tips": {
+    "title": "Tips",
+    "menu": [
+      "New updates are coming!",
+      "Errors found in the program can be reported on github!",
+      "This is a modified version see the credits option for more information.",
+      "Don't forget to look for update!!!",
+      "You can suggest a function in the 'Discussion' tab in github."
+    ],
+    "infoGathering": [
+      "Information gathering is essential for a successful attack!",
+      "Nmap is a good start!",
+      "Have you camouflaged your IP?"
+    ],
+    "DoS": [
+      "A good internet is recommended!"
+    ]
+  }
+ }
+}
